@@ -23,7 +23,6 @@ const Home = () => (
           everyday. What matters is that you lace up — and have tons of fun.
         </p>
         <p>
-          {' '}
           We don't discriminate against any gender, orientation, color or creed. Like beer, runners come in all sizes,
           shapes and forms. Thus we won't tolerate body shaming, racism or harassment of any kind. Ever. We are one
           tribe — runners and beer drinkers all.

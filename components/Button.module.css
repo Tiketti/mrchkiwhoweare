@@ -1,0 +1,7 @@
+.basic {
+  color: white;
+  border: 0;
+  padding: 1rem;
+  background-color: slategray;
+  filter: drop-shadow(-0.3rem 0.3rem 0 white);
+}

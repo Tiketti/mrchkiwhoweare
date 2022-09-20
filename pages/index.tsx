@@ -21,7 +21,11 @@ const Home = () => {
 
         <div className={styles.description}>
           <div className={styles.buttonParent}>
-            <Button onclick={() => setViewmode(viewmode === 'basic' ? 'coc' : 'basic')}>See Code of Conduct</Button>
+            {viewmode === 'basic' ? (
+              <Button onclick={() => setViewmode('coc')}>See Code of Conduct</Button>
+            ) : (
+              <Button onclick={() => setViewmode('basic')}>See who we are</Button>
+            )}
           </div>
 
           {viewmode === 'basic' ? (

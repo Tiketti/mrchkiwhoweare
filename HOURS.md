@@ -2,6 +2,12 @@
 
 ## Unreported
 
+### 2023-02-05
+
+1 hour
+
+- set up ESLint
+
 ---
 
 ## Reported

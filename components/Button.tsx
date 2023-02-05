@@ -1,6 +1,12 @@
+import React from 'react';
 import styles from './Button.module.css';
 
-const Button = ({ children, onclick }) => {
+type Props = {
+  children: React.ReactChild;
+  onclick: () => void;
+};
+
+const Button = ({ children, onclick }: Props) => {
   return (
     <button type="button" className={styles.basic} onClick={() => onclick()}>
       {children}
